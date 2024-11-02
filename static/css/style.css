@@ -1,0 +1,188 @@
+/* Base styles for the body */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke; /* Light background for the page */
+}
+
+/* Center alignment for headings */
+h1, h2 { 
+    text-align: center;
+}
+
+/* Styles for the input container */
+.input-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between input fields */
+    width: 80vw; /* Width of the container */
+    margin: auto; /* Center the container on the page */
+    padding: 10px; /* Padding around the container */
+}
+
+/* Styles for inventory item input */
+#input-inventory {
+    width: 250px; /* Set width of the input */
+    height: 25px; /* Set height of the input */
+    font-size: 1.25rem; /* Font size */
+}
+
+/* Styles for the add inventory button */
+#add-inventory {
+    height: 40px; /* Set button height */
+    width: 40px; /* Set button width */
+    border-radius: 20px; /* Rounded corners */
+    border: none; /* No border */
+    background-color: lightblue; /* Button color */
+    font-size: 1.5rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Styles for individual inventory items */
+.inventory {
+    background-color: lightsteelblue; /* Background color for inventory item */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between item details and actions */
+    padding: 10px; /* Padding inside the item box */
+    margin: 10px 0; /* Margin between items */
+    border-radius: 5px; /* Rounded corners */
+    align-items: center; /* Center items vertically */
+    font-size: 1.2rem; /* Font size */
+}
+
+/* Styles for action buttons within inventory items */
+.actions > form {
+    display: inline; /* Display forms inline */
+    align-items: center; /* Center form items vertically */
+}
+
+.actions > form > button {
+    font-family: inherit; /* Inherit font from body */
+    background-color: red; /* Background color for delete button */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px; /* Padding */
+    font-size: 1.2rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+}
+
+
+/* Styles for edit and add/remove stock buttons */
+.edit-button, .add-stock-button{
+    font-family: inherit; /* Inherit font from body */
+    background-color: rgb(116, 233, 139); /* Color for edit and add buttons */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px 15px; /* Padding */
+    font-size: 1.2rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+    margin: 5px; /* Margin for spacing */
+}
+.remove-stock-button{
+font-family: inherit; /* Inherit font from body */
+background-color: red; /* Color for edit and add buttons */
+color: white; /* Text color */
+border: none; /* No border */
+padding: 5px 15px; /* Padding */
+font-size: 1.2rem; /* Font size */
+cursor: pointer; /* Pointer cursor on hover */
+border-radius: 10px; /* Rounded corners */
+margin: 5px; /* Margin for spacing */
+}
+
+/* Hover effects for buttons */
+.add-stock-button:hover,
+.remove-stock-button:hover,
+.edit-button:hover,
+.add-supplier-button:hover,
+.actions > form > button:hover,
+.actions-button:hover,
+.edit-supplier-button:hover,
+.add-supplier-button:hover,
+#add-inventory:hover{
+    opacity: 0.5; /* Slight fade effect on hover */
+}
+
+
+/* Styles for the edit form */
+.edit-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+    gap: 10px; /* Space between elements */
+    margin: 20px auto; /* Center the form */
+    width: 300px; /* Set form width */
+}
+
+/* Styles for text input in edit form */
+.edit-form input[type="text"] {
+    width: 100%; /* Full width input */
+    height: 30px; /* Input height */
+    font-size: 1rem; /* Font size */
+    border-radius: 15px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border style */
+    padding: 5px; /* Padding inside the input */
+}
+
+/* Styles for action buttons in forms */
+.actions-button {
+    font-family: inherit; /* Inherit font from body */
+    background-color: lightblue; /* Background color for action buttons */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px 15px; /* Padding */
+    font-size: 1.2rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+    margin: 5px; /* Margin for spacing */
+}
+
+/* Styles for the supplier form */
+.supplier-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+    gap: 10px; /* Space between elements */
+    margin: 20px auto; /* Center the form */
+    width: 300px; /* Set form width */
+}
+
+/* Styles for add supplier button */
+.edit-supplier-button {
+    font-family: inherit; /* Inherit font from body */
+    background-color: lightblue; /* Background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px 15px; /* Padding */
+    font-size: 1.2rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+    margin: 5px; /* Margin for spacing */
+}
+
+/* Styles for the add supplier button */
+.add-supplier-button {
+    font-family: inherit; /* Inherit font from body */
+    background-color: darkblue; /* Background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    padding: 5px 15px; /* Padding */
+    font-size: 1.2rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+    margin: 5px; /* Margin for spacing */
+}
+
+/* Styles for action links */
+.actions {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between action buttons */
+}
+
+/* Styles for inline action links */
+.action-link {
+    display: inline; /* Display links inline */
+}

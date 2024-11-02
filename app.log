@@ -1,0 +1,375 @@
+2024-11-02 10:18:53,879 - WARNING -  * Debugger is active!
+2024-11-02 10:18:53,903 - INFO -  * Debugger PIN: 122-309-928
+2024-11-02 10:19:03,493 - INFO - Accessed home page.
+2024-11-02 10:19:03,513 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:03] "GET / HTTP/1.1" 200 -
+2024-11-02 10:19:03,651 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:19:08,854 - INFO - Accessed home page.
+2024-11-02 10:19:08,867 - INFO - Added new item: Potatoes, Amount: 4
+2024-11-02 10:19:08,868 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:08] "POST / HTTP/1.1" 200 -
+2024-11-02 10:19:08,925 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:19:10,237 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:10] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 10:19:10,297 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:19:16,319 - INFO - Updated item ID 1: Name: Potatoes, Amount: 2
+2024-11-02 10:19:16,320 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:16] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-02 10:19:16,326 - INFO - Accessed home page.
+2024-11-02 10:19:16,329 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:16] "GET / HTTP/1.1" 200 -
+2024-11-02 10:19:16,446 - INFO - 127.0.0.1 - - [02/Nov/2024 10:19:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:20:02,655 - INFO - Accessed home page.
+2024-11-02 10:20:02,663 - INFO - Added new item: Potatoes, Amount: 2
+2024-11-02 10:20:02,664 - INFO - 127.0.0.1 - - [02/Nov/2024 10:20:02] "POST / HTTP/1.1" 200 -
+2024-11-02 10:20:02,730 - INFO - 127.0.0.1 - - [02/Nov/2024 10:20:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:20:46,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 10:20:46,179 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-02 10:20:46,189 - INFO -  * Restarting with stat
+2024-11-02 10:20:46,961 - WARNING -  * Debugger is active!
+2024-11-02 10:20:46,972 - INFO -  * Debugger PIN: 122-309-928
+2024-11-02 10:21:17,825 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 10:21:17,825 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-02 10:21:17,829 - INFO -  * Restarting with stat
+2024-11-02 10:21:18,604 - WARNING -  * Debugger is active!
+2024-11-02 10:21:18,613 - INFO -  * Debugger PIN: 122-309-928
+2024-11-02 10:22:17,231 - INFO - Accessed home page.
+2024-11-02 10:22:17,253 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:17] "GET / HTTP/1.1" 200 -
+2024-11-02 10:22:17,353 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:22:18,851 - INFO - Attempting to delete item with ID: 1
+2024-11-02 10:22:18,865 - INFO - Deleted item: Potatoes
+2024-11-02 10:22:18,865 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:18] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 10:22:18,871 - INFO - Accessed home page.
+2024-11-02 10:22:18,872 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:18] "GET / HTTP/1.1" 200 -
+2024-11-02 10:22:19,003 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:22:19,433 - INFO - Attempting to delete item with ID: 2
+2024-11-02 10:22:19,437 - INFO - Deleted item: Potatoes
+2024-11-02 10:22:19,438 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:19] "[32mPOST /delete/2 HTTP/1.1[0m" 302 -
+2024-11-02 10:22:19,444 - INFO - Accessed home page.
+2024-11-02 10:22:19,446 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:19] "GET / HTTP/1.1" 200 -
+2024-11-02 10:22:19,521 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:22:20,989 - INFO - Accessed home page.
+2024-11-02 10:22:20,990 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:20] "GET / HTTP/1.1" 200 -
+2024-11-02 10:22:21,064 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:22:42,474 - INFO - Accessed home page.
+2024-11-02 10:22:42,482 - INFO - Added new item: Potatoes, Amount: 1
+2024-11-02 10:22:42,483 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:42] "POST / HTTP/1.1" 200 -
+2024-11-02 10:22:42,539 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:22:48,579 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:48] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 10:22:48,642 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:22:51,876 - INFO - Updated item ID 1: Name: Potatoes, Amount: 3
+2024-11-02 10:22:51,877 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:51] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-02 10:22:51,881 - INFO - Accessed home page.
+2024-11-02 10:22:51,884 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:51] "GET / HTTP/1.1" 200 -
+2024-11-02 10:22:51,954 - INFO - 127.0.0.1 - - [02/Nov/2024 10:22:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:25:11,513 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 10:25:11,513 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-02 10:25:11,519 - INFO -  * Restarting with stat
+2024-11-02 10:25:12,317 - WARNING -  * Debugger is active!
+2024-11-02 10:25:12,327 - INFO -  * Debugger PIN: 122-309-928
+2024-11-02 10:25:41,488 - INFO - Accessed home page.
+2024-11-02 10:25:41,510 - INFO - 127.0.0.1 - - [02/Nov/2024 10:25:41] "GET / HTTP/1.1" 200 -
+2024-11-02 10:25:41,673 - INFO - 127.0.0.1 - - [02/Nov/2024 10:25:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:25:43,152 - INFO - Attempting to delete item with ID: 1
+2024-11-02 10:25:43,163 - INFO - Deleted item: Potatoes
+2024-11-02 10:25:43,163 - INFO - 127.0.0.1 - - [02/Nov/2024 10:25:43] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 10:25:43,176 - INFO - Accessed home page.
+2024-11-02 10:25:43,178 - INFO - 127.0.0.1 - - [02/Nov/2024 10:25:43] "GET / HTTP/1.1" 200 -
+2024-11-02 10:25:43,254 - INFO - 127.0.0.1 - - [02/Nov/2024 10:25:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:25:45,185 - INFO - Accessed home page.
+2024-11-02 10:25:45,188 - INFO - 127.0.0.1 - - [02/Nov/2024 10:25:45] "GET / HTTP/1.1" 200 -
+2024-11-02 10:25:45,256 - INFO - 127.0.0.1 - - [02/Nov/2024 10:25:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:26:13,734 - INFO - Accessed home page.
+2024-11-02 10:26:13,746 - INFO - Added new item: Mugs, Amount: 4
+2024-11-02 10:26:13,748 - INFO - 127.0.0.1 - - [02/Nov/2024 10:26:13] "POST / HTTP/1.1" 200 -
+2024-11-02 10:26:13,816 - INFO - 127.0.0.1 - - [02/Nov/2024 10:26:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:26:15,107 - INFO - 127.0.0.1 - - [02/Nov/2024 10:26:15] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 10:26:15,166 - INFO - 127.0.0.1 - - [02/Nov/2024 10:26:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:26:18,913 - INFO - Updated item ID 1: Name: Mugs, Amount: 6
+2024-11-02 10:26:18,913 - INFO - 127.0.0.1 - - [02/Nov/2024 10:26:18] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-02 10:26:18,919 - INFO - Accessed home page.
+2024-11-02 10:26:18,921 - INFO - 127.0.0.1 - - [02/Nov/2024 10:26:18] "GET / HTTP/1.1" 200 -
+2024-11-02 10:26:19,032 - INFO - 127.0.0.1 - - [02/Nov/2024 10:26:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 10:27:42,560 - INFO - Accessed home page.
+2024-11-02 10:27:42,564 - INFO - 127.0.0.1 - - [02/Nov/2024 10:27:42] "GET / HTTP/1.1" 200 -
+2024-11-02 10:27:42,625 - INFO - 127.0.0.1 - - [02/Nov/2024 10:27:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:35:36,373 - INFO - Accessed home page.
+2024-11-02 12:35:36,389 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:36] "GET / HTTP/1.1" 200 -
+2024-11-02 12:35:36,529 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:35:37,665 - INFO - Attempting to delete item with ID: 1
+2024-11-02 12:35:37,678 - INFO - Deleted item: Mugs
+2024-11-02 12:35:37,679 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:37] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:35:37,685 - INFO - Accessed home page.
+2024-11-02 12:35:37,687 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:37] "GET / HTTP/1.1" 200 -
+2024-11-02 12:35:37,767 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:35:41,555 - INFO - Accessed home page.
+2024-11-02 12:35:41,563 - INFO - Added new item: Mugs, Amount: 1
+2024-11-02 12:35:41,565 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:41] "POST / HTTP/1.1" 200 -
+2024-11-02 12:35:41,713 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:35:43,718 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:43] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 12:35:43,793 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:35:45,776 - INFO - Accessed home page.
+2024-11-02 12:35:45,779 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:45] "GET / HTTP/1.1" 200 -
+2024-11-02 12:35:45,864 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:35:47,286 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:47] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 12:35:47,371 - INFO - 127.0.0.1 - - [02/Nov/2024 12:35:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:10,585 - INFO - Accessed home page.
+2024-11-02 12:36:10,587 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:10] "GET / HTTP/1.1" 200 -
+2024-11-02 12:36:10,702 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:12,437 - INFO - Attempting to delete item with ID: 1
+2024-11-02 12:36:12,442 - INFO - Deleted item: Mugs
+2024-11-02 12:36:12,443 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:12] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:36:12,452 - INFO - Accessed home page.
+2024-11-02 12:36:12,453 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:12] "GET / HTTP/1.1" 200 -
+2024-11-02 12:36:12,528 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:14,033 - INFO - Accessed home page.
+2024-11-02 12:36:14,037 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:14] "GET / HTTP/1.1" 200 -
+2024-11-02 12:36:14,103 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:34,860 - INFO - Accessed home page.
+2024-11-02 12:36:34,868 - INFO - Added new item: Mugs, Amount: 1
+2024-11-02 12:36:34,871 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:34] "POST / HTTP/1.1" 200 -
+2024-11-02 12:36:34,943 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:37,384 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:37] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 12:36:37,460 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:40,792 - INFO - Added supplier 'Voltex' to item ID 1
+2024-11-02 12:36:40,792 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:40] "[32mPOST /add_supplier/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:36:40,797 - INFO - Accessed home page.
+2024-11-02 12:36:40,798 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:40] "GET / HTTP/1.1" 200 -
+2024-11-02 12:36:40,871 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:44,727 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:44] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 12:36:44,861 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:36:48,789 - INFO - Updated item ID 1: Name: Mugs, Amount: 5
+2024-11-02 12:36:48,789 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:48] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:36:48,796 - INFO - Accessed home page.
+2024-11-02 12:36:48,798 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:48] "GET / HTTP/1.1" 200 -
+2024-11-02 12:36:48,942 - INFO - 127.0.0.1 - - [02/Nov/2024 12:36:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:40:14,964 - INFO - Attempting to delete item with ID: 1
+2024-11-02 12:40:14,970 - INFO - Deleted item: Mugs
+2024-11-02 12:40:14,971 - INFO - 127.0.0.1 - - [02/Nov/2024 12:40:14] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:40:14,980 - INFO - Accessed home page.
+2024-11-02 12:40:14,982 - INFO - 127.0.0.1 - - [02/Nov/2024 12:40:14] "GET / HTTP/1.1" 200 -
+2024-11-02 12:40:15,072 - INFO - 127.0.0.1 - - [02/Nov/2024 12:40:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:40:25,062 - INFO - Accessed home page.
+2024-11-02 12:40:25,065 - INFO - 127.0.0.1 - - [02/Nov/2024 12:40:25] "GET / HTTP/1.1" 200 -
+2024-11-02 12:40:25,384 - INFO - 127.0.0.1 - - [02/Nov/2024 12:40:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:40:36,881 - INFO - Accessed home page.
+2024-11-02 12:40:36,889 - INFO - Added new item: Mugs, Amount: 1
+2024-11-02 12:40:36,891 - INFO - 127.0.0.1 - - [02/Nov/2024 12:40:36] "POST / HTTP/1.1" 200 -
+2024-11-02 12:40:36,978 - INFO - 127.0.0.1 - - [02/Nov/2024 12:40:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:44:47,991 - INFO - Accessed home page.
+2024-11-02 12:44:47,998 - INFO - Added new item: Mugs, Amount: 1
+2024-11-02 12:44:48,013 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:48] "POST / HTTP/1.1" 200 -
+2024-11-02 12:44:48,203 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:44:52,703 - INFO - Accessed home page.
+2024-11-02 12:44:52,705 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:52] "GET / HTTP/1.1" 200 -
+2024-11-02 12:44:52,779 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:44:56,202 - INFO - Accessed home page.
+2024-11-02 12:44:56,209 - INFO - Added new item: Mugs, Amount: 1
+2024-11-02 12:44:56,211 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:56] "POST / HTTP/1.1" 200 -
+2024-11-02 12:44:56,279 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:44:57,822 - INFO - Attempting to delete item with ID: 3
+2024-11-02 12:44:57,826 - INFO - Deleted item: Mugs
+2024-11-02 12:44:57,827 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:57] "[32mPOST /delete/3 HTTP/1.1[0m" 302 -
+2024-11-02 12:44:57,959 - INFO - Accessed home page.
+2024-11-02 12:44:57,961 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:57] "GET / HTTP/1.1" 200 -
+2024-11-02 12:44:58,035 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:44:58,820 - INFO - Attempting to delete item with ID: 2
+2024-11-02 12:44:58,825 - INFO - Deleted item: Mugs
+2024-11-02 12:44:58,825 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:58] "[32mPOST /delete/2 HTTP/1.1[0m" 302 -
+2024-11-02 12:44:58,831 - INFO - Accessed home page.
+2024-11-02 12:44:58,833 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:58] "GET / HTTP/1.1" 200 -
+2024-11-02 12:44:58,928 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:44:59,933 - INFO - Attempting to delete item with ID: 1
+2024-11-02 12:44:59,939 - INFO - Deleted item: Mugs
+2024-11-02 12:44:59,941 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:59] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:44:59,946 - INFO - Accessed home page.
+2024-11-02 12:44:59,949 - INFO - 127.0.0.1 - - [02/Nov/2024 12:44:59] "GET / HTTP/1.1" 200 -
+2024-11-02 12:45:00,011 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:45:05,880 - INFO - Accessed home page.
+2024-11-02 12:45:05,887 - INFO - Added new item: Penciles, Amount: 2
+2024-11-02 12:45:05,892 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:05] "POST / HTTP/1.1" 200 -
+2024-11-02 12:45:05,998 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:45:10,896 - INFO - Accessed home page.
+2024-11-02 12:45:10,904 - INFO - Added new item: Mugs, Amount: 1
+2024-11-02 12:45:10,906 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:10] "POST / HTTP/1.1" 200 -
+2024-11-02 12:45:11,043 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:45:13,160 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:13] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 12:45:13,228 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:45:15,770 - INFO - Added supplier 'Voltex' to item ID 1
+2024-11-02 12:45:15,771 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:15] "[32mPOST /add_supplier/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:45:15,777 - INFO - Accessed home page.
+2024-11-02 12:45:15,780 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:15] "GET / HTTP/1.1" 200 -
+2024-11-02 12:45:15,889 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:45:19,373 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:19] "GET /add_supplier/2 HTTP/1.1" 200 -
+2024-11-02 12:45:19,441 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:45:22,369 - INFO - Added supplier 'ACDC' to item ID 2
+2024-11-02 12:45:22,369 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:22] "[32mPOST /add_supplier/2 HTTP/1.1[0m" 302 -
+2024-11-02 12:45:22,376 - INFO - Accessed home page.
+2024-11-02 12:45:22,378 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:22] "GET / HTTP/1.1" 200 -
+2024-11-02 12:45:22,458 - INFO - 127.0.0.1 - - [02/Nov/2024 12:45:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:46:56,518 - INFO - Accessed home page.
+2024-11-02 12:46:56,532 - INFO - 127.0.0.1 - - [02/Nov/2024 12:46:56] "GET / HTTP/1.1" 200 -
+2024-11-02 12:46:56,602 - INFO - 127.0.0.1 - - [02/Nov/2024 12:46:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:47:00,359 - INFO - Attempting to delete item with ID: 1
+2024-11-02 12:47:00,364 - INFO - Deleted item: Penciles
+2024-11-02 12:47:00,365 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:00] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 12:47:00,375 - INFO - Accessed home page.
+2024-11-02 12:47:00,376 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:00] "GET / HTTP/1.1" 200 -
+2024-11-02 12:47:00,448 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:47:00,654 - INFO - Attempting to delete item with ID: 2
+2024-11-02 12:47:00,659 - INFO - Deleted item: Mugs
+2024-11-02 12:47:00,659 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:00] "[32mPOST /delete/2 HTTP/1.1[0m" 302 -
+2024-11-02 12:47:00,666 - INFO - Accessed home page.
+2024-11-02 12:47:00,668 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:00] "GET / HTTP/1.1" 200 -
+2024-11-02 12:47:00,729 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:47:18,216 - INFO - Accessed home page.
+2024-11-02 12:47:18,222 - INFO - Added new item: Pencil, Amount: 1
+2024-11-02 12:47:18,224 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:18] "POST / HTTP/1.1" 200 -
+2024-11-02 12:47:18,302 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:47:30,821 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:30] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 12:47:30,897 - INFO - 127.0.0.1 - - [02/Nov/2024 12:47:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:49:45,651 - INFO - 127.0.0.1 - - [02/Nov/2024 12:49:45] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 12:49:45,723 - INFO - 127.0.0.1 - - [02/Nov/2024 12:49:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:50:58,469 - INFO - 127.0.0.1 - - [02/Nov/2024 12:50:58] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 12:50:58,543 - INFO - 127.0.0.1 - - [02/Nov/2024 12:50:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:51:04,886 - INFO - Accessed home page.
+2024-11-02 12:51:04,889 - INFO - 127.0.0.1 - - [02/Nov/2024 12:51:04] "GET / HTTP/1.1" 200 -
+2024-11-02 12:51:05,002 - INFO - 127.0.0.1 - - [02/Nov/2024 12:51:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:52:04,987 - INFO - Accessed home page.
+2024-11-02 12:52:04,991 - INFO - 127.0.0.1 - - [02/Nov/2024 12:52:04] "GET / HTTP/1.1" 200 -
+2024-11-02 12:52:05,058 - INFO - 127.0.0.1 - - [02/Nov/2024 12:52:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:52:29,393 - INFO - Accessed home page.
+2024-11-02 12:52:29,394 - INFO - 127.0.0.1 - - [02/Nov/2024 12:52:29] "GET / HTTP/1.1" 200 -
+2024-11-02 12:52:29,467 - INFO - 127.0.0.1 - - [02/Nov/2024 12:52:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:52:32,343 - INFO - Accessed home page.
+2024-11-02 12:52:32,345 - INFO - 127.0.0.1 - - [02/Nov/2024 12:52:32] "GET / HTTP/1.1" 200 -
+2024-11-02 12:52:32,412 - INFO - 127.0.0.1 - - [02/Nov/2024 12:52:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 12:53:18,938 - INFO - Accessed home page.
+2024-11-02 12:53:18,940 - INFO - 127.0.0.1 - - [02/Nov/2024 12:53:18] "GET / HTTP/1.1" 200 -
+2024-11-02 12:53:19,009 - INFO - 127.0.0.1 - - [02/Nov/2024 12:53:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:55:35,079 - INFO - Accessed home page.
+2024-11-02 12:55:35,081 - INFO - 127.0.0.1 - - [02/Nov/2024 12:55:35] "GET / HTTP/1.1" 200 -
+2024-11-02 12:55:35,136 - INFO - 127.0.0.1 - - [02/Nov/2024 12:55:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:55:59,024 - INFO - Accessed home page.
+2024-11-02 12:55:59,026 - INFO - 127.0.0.1 - - [02/Nov/2024 12:55:59] "GET / HTTP/1.1" 200 -
+2024-11-02 12:55:59,099 - INFO - 127.0.0.1 - - [02/Nov/2024 12:55:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:57:07,313 - INFO - Accessed home page.
+2024-11-02 12:57:07,327 - INFO - 127.0.0.1 - - [02/Nov/2024 12:57:07] "GET / HTTP/1.1" 200 -
+2024-11-02 12:57:07,479 - INFO - 127.0.0.1 - - [02/Nov/2024 12:57:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:58:09,784 - INFO - Accessed home page.
+2024-11-02 12:58:09,786 - INFO - 127.0.0.1 - - [02/Nov/2024 12:58:09] "GET / HTTP/1.1" 200 -
+2024-11-02 12:58:09,847 - INFO - 127.0.0.1 - - [02/Nov/2024 12:58:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 12:58:25,358 - INFO - Accessed home page.
+2024-11-02 12:58:25,360 - INFO - 127.0.0.1 - - [02/Nov/2024 12:58:25] "GET / HTTP/1.1" 200 -
+2024-11-02 12:58:25,417 - INFO - 127.0.0.1 - - [02/Nov/2024 12:58:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:00:09,666 - INFO - Accessed home page.
+2024-11-02 13:00:09,668 - INFO - 127.0.0.1 - - [02/Nov/2024 13:00:09] "GET / HTTP/1.1" 200 -
+2024-11-02 13:00:09,743 - INFO - 127.0.0.1 - - [02/Nov/2024 13:00:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:00:20,767 - INFO - Accessed home page.
+2024-11-02 13:00:20,769 - INFO - 127.0.0.1 - - [02/Nov/2024 13:00:20] "GET / HTTP/1.1" 200 -
+2024-11-02 13:00:20,832 - INFO - 127.0.0.1 - - [02/Nov/2024 13:00:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:01:36,748 - INFO - Accessed home page.
+2024-11-02 13:01:36,754 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:36] "GET / HTTP/1.1" 200 -
+2024-11-02 13:01:36,819 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:01:46,394 - INFO - Accessed home page.
+2024-11-02 13:01:46,398 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:46] "GET / HTTP/1.1" 200 -
+2024-11-02 13:01:46,467 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:01:47,897 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:47] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 13:01:47,963 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:01:49,705 - INFO - Accessed home page.
+2024-11-02 13:01:49,707 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:49] "GET / HTTP/1.1" 200 -
+2024-11-02 13:01:49,783 - INFO - 127.0.0.1 - - [02/Nov/2024 13:01:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:06:45,750 - INFO - Accessed home page.
+2024-11-02 13:06:45,777 - INFO - 127.0.0.1 - - [02/Nov/2024 13:06:45] "GET / HTTP/1.1" 200 -
+2024-11-02 13:06:45,883 - INFO - 127.0.0.1 - - [02/Nov/2024 13:06:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:06:51,840 - INFO - 127.0.0.1 - - [02/Nov/2024 13:06:51] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 13:06:51,993 - INFO - 127.0.0.1 - - [02/Nov/2024 13:06:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:07:15,470 - INFO - Accessed home page.
+2024-11-02 13:07:15,483 - INFO - 127.0.0.1 - - [02/Nov/2024 13:07:15] "GET / HTTP/1.1" 200 -
+2024-11-02 13:07:15,545 - INFO - 127.0.0.1 - - [02/Nov/2024 13:07:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:07:51,332 - INFO - Accessed home page.
+2024-11-02 13:07:51,334 - INFO - 127.0.0.1 - - [02/Nov/2024 13:07:51] "GET / HTTP/1.1" 200 -
+2024-11-02 13:07:51,402 - INFO - 127.0.0.1 - - [02/Nov/2024 13:07:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:09:00,757 - INFO - Accessed home page.
+2024-11-02 13:09:00,758 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:00] "GET / HTTP/1.1" 200 -
+2024-11-02 13:09:00,831 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:09:46,176 - INFO - Accessed home page.
+2024-11-02 13:09:46,182 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:46] "GET / HTTP/1.1" 200 -
+2024-11-02 13:09:46,268 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:09:50,257 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:50] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:09:50,444 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:09:54,417 - INFO - Accessed home page.
+2024-11-02 13:09:54,419 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:54] "GET / HTTP/1.1" 200 -
+2024-11-02 13:09:54,489 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:09:57,175 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:57] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 13:09:57,323 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:09:58,833 - INFO - Accessed home page.
+2024-11-02 13:09:58,836 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:58] "GET / HTTP/1.1" 200 -
+2024-11-02 13:09:58,917 - INFO - 127.0.0.1 - - [02/Nov/2024 13:09:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:10:00,655 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:00] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:10:00,719 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:10:34,788 - INFO - Accessed home page.
+2024-11-02 13:10:34,791 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:34] "GET / HTTP/1.1" 200 -
+2024-11-02 13:10:34,864 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:10:37,100 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:37] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:10:37,173 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:10:38,626 - INFO - Updated item ID 1: Name: Pencil, Amount: 1
+2024-11-02 13:10:38,627 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:38] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-02 13:10:38,631 - INFO - Accessed home page.
+2024-11-02 13:10:38,634 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:38] "GET / HTTP/1.1" 200 -
+2024-11-02 13:10:38,704 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:10:39,710 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:39] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 13:10:39,795 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:10:41,265 - INFO - Accessed home page.
+2024-11-02 13:10:41,268 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:41] "GET / HTTP/1.1" 200 -
+2024-11-02 13:10:41,351 - INFO - 127.0.0.1 - - [02/Nov/2024 13:10:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:12:19,824 - INFO - Accessed home page.
+2024-11-02 13:12:19,838 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:19] "GET / HTTP/1.1" 200 -
+2024-11-02 13:12:20,013 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:12:23,339 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:23] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:12:23,407 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:12:32,254 - INFO - Accessed home page.
+2024-11-02 13:12:32,256 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:32] "GET / HTTP/1.1" 200 -
+2024-11-02 13:12:32,375 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:12:34,974 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:34] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 13:12:35,055 - INFO - 127.0.0.1 - - [02/Nov/2024 13:12:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:13:42,506 - INFO - 127.0.0.1 - - [02/Nov/2024 13:13:42] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-02 13:13:42,580 - INFO - 127.0.0.1 - - [02/Nov/2024 13:13:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:13:44,753 - INFO - Accessed home page.
+2024-11-02 13:13:44,755 - INFO - 127.0.0.1 - - [02/Nov/2024 13:13:44] "GET / HTTP/1.1" 200 -
+2024-11-02 13:13:44,827 - INFO - 127.0.0.1 - - [02/Nov/2024 13:13:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:14:55,130 - INFO - Accessed home page.
+2024-11-02 13:14:55,132 - INFO - 127.0.0.1 - - [02/Nov/2024 13:14:55] "GET / HTTP/1.1" 200 -
+2024-11-02 13:14:55,196 - INFO - 127.0.0.1 - - [02/Nov/2024 13:14:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:14:57,854 - INFO - Accessed home page.
+2024-11-02 13:14:57,857 - INFO - 127.0.0.1 - - [02/Nov/2024 13:14:57] "GET / HTTP/1.1" 200 -
+2024-11-02 13:14:57,945 - INFO - 127.0.0.1 - - [02/Nov/2024 13:14:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:16:43,164 - INFO - Accessed home page.
+2024-11-02 13:16:43,170 - INFO - 127.0.0.1 - - [02/Nov/2024 13:16:43] "GET / HTTP/1.1" 200 -
+2024-11-02 13:16:43,246 - INFO - 127.0.0.1 - - [02/Nov/2024 13:16:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-02 13:16:53,231 - INFO - Accessed home page.
+2024-11-02 13:16:53,238 - INFO - Added new item: Pen, Amount: 4
+2024-11-02 13:16:53,240 - INFO - 127.0.0.1 - - [02/Nov/2024 13:16:53] "POST / HTTP/1.1" 200 -
+2024-11-02 13:16:53,316 - INFO - 127.0.0.1 - - [02/Nov/2024 13:16:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:16:58,744 - INFO - 127.0.0.1 - - [02/Nov/2024 13:16:58] "GET /add_supplier/2 HTTP/1.1" 200 -
+2024-11-02 13:16:58,815 - INFO - 127.0.0.1 - - [02/Nov/2024 13:16:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:17:01,700 - INFO - Accessed home page.
+2024-11-02 13:17:01,704 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:01] "GET / HTTP/1.1" 200 -
+2024-11-02 13:17:01,850 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:17:02,911 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:02] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:17:02,984 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:17:13,244 - INFO - Updated item ID 1: Name: Pencil, Amount: 2
+2024-11-02 13:17:13,244 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:13] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-02 13:17:13,275 - INFO - Accessed home page.
+2024-11-02 13:17:13,323 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:13] "GET / HTTP/1.1" 200 -
+2024-11-02 13:17:13,390 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:17:15,504 - INFO - Attempting to delete item with ID: 2
+2024-11-02 13:17:15,510 - INFO - Deleted item: Pen
+2024-11-02 13:17:15,510 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:15] "[32mPOST /delete/2 HTTP/1.1[0m" 302 -
+2024-11-02 13:17:15,516 - INFO - Accessed home page.
+2024-11-02 13:17:15,518 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:15] "GET / HTTP/1.1" 200 -
+2024-11-02 13:17:15,587 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:17:16,090 - INFO - Attempting to delete item with ID: 1
+2024-11-02 13:17:16,094 - INFO - Deleted item: Pencil
+2024-11-02 13:17:16,095 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:16] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-02 13:17:16,102 - INFO - Accessed home page.
+2024-11-02 13:17:16,103 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:16] "GET / HTTP/1.1" 200 -
+2024-11-02 13:17:16,159 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

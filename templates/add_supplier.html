@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Supplier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Add Supplier</h1>
+
+    <!-- Form for adding a new supplier -->
+    <form class="supplier-form" method="POST">
+        <input type="text" name="supplier_name" placeholder="Enter Supplier Name" required>
+        <button type="submit" class="edit-supplier-button">Add Supplier</button>
+        
+        <!-- Cancel button to return to the inventory list -->
+        <a href="{{ url_for('home') }}">
+            <button type="button" class="edit-supplier-button">Cancel</button>
+        </a>
+    </form>
+</body>
+</html>

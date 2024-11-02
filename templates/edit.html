@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Inventory Item</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <h1>Edit Inventory Item</h1>
+    
+    <!-- Form for editing inventory item -->
+    <form class="edit-form" action="{{ url_for('edit_inventory', inventory_id=item.id) }}" method="POST" onsubmit="updateHiddenAmount()">
+        <!-- Input field for inventory name, pre-filled with current name -->
+        <input type="text" name="inventory_name" value="{{ item.name }}" required>
+        
+        <!-- Hidden fields to store current amount and new amount -->
+        <input type="hidden" name="current_amount" value="{{ item.amount }}">
+        <input type="hidden" name="new_amount" id="new_amount">
+
+        <div>
+            <!-- Display current amount -->
+            <h3>Current Amount: <span id="current_amount">{{ item.amount }}</span></h3>
+        </div>
+        
+        <hr> <!-- Horizontal line for separation -->
+
+        <div class="stock-adjustment">
+            <h3>Adjust Stock</h3>
+        </div>
+
+        <div class="stock-adjustment" style="text-align: center;">
+            <!-- Section for adding stock -->
+            <div style="display: inline-flex; align-items: center; gap: 10px; margin: 10px 0;">
+                <label>Add Stock:</label>
+                <input type="number" id="add_stock" min="0" value="0" style="width: 80px;">
+                <button class="add-stock-button" type="button" onclick="updateTotal('add')">Add</button>
+            </div>
+            <!-- Section for removing stock -->
+            <div style="display: inline-flex; align-items: center; gap: 10px;">
+                <label>Remove Stock:</label>
+                <input type="number" id="remove_stock" min="0" value="0" style="width: 80px;">
+                <button class="remove-stock-button" type="button" onclick="updateTotal('remove')">Remove</button>
+            </div>
+            <div>
+                <!-- Display new total amount after adjustments -->
+                <h3>New Total Amount: <span id="total_amount">{{ item.amount }}</span></h3>
+            </div>
+            
+            <!-- Action buttons for updating or canceling -->
+            <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
+                <button class="actions-button" type="submit">Update</button>
+                <a href="{{ url_for('home') }}">
+                    <button type="button" class="actions-button">Cancel</button>
+                </a>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        // Function to update the total amount based on stock adjustments
+        function updateTotal(action) {
+            const currentAmount = parseInt(document.querySelector('input[name="current_amount"]').value);
+            const addStock = parseInt(document.getElementById('add_stock').value);
+            const removeStock = parseInt(document.getElementById('remove_stock').value);
+
+            let newTotal = currentAmount;
+            if (action === 'add') {
+                newTotal += addStock; // Increase total by added stock
+            } else if (action === 'remove') {
+                newTotal -= removeStock; // Decrease total by removed stock
+            }
+
+            // Ensure total doesn't drop below zero
+            if (newTotal < 0) newTotal = 0;
+
+            // Update the displayed new total amount
+            document.getElementById('total_amount').innerText = newTotal;
+        }
+
+        // Function to update the hidden amount field before form submission
+        function updateHiddenAmount() {
+            const totalAmount = document.getElementById('total_amount').innerText;
+            document.getElementById('new_amount').value = totalAmount; // Set new amount value
+        }
+    </script>
+</body>
+</html>

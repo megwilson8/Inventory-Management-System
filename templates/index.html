@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inventory List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Inventory List Flask</h1>
+    
+    <!-- Display error messages, if any -->
+    {% if error %}
+    <div class="error-message" style="color: red; text-align: center;">
+        {{ error }}
+    </div>
+    {% endif %}
+
+    <!-- Form for adding new inventory items -->
+    <form action="{{ url_for('home') }}" class="input-container" method="POST">
+        <input type="text" placeholder="Enter Inventory Item" id="input-inventory" name="inventory_name" required>
+        <input type="number" placeholder="Enter Amount" id="input-amount" name="inventory_amount" min="1" value="1" required>
+        <button type="submit" id="add-inventory">+</button>
+    </form>
+    
+    <h2>Inventories</h2>
+    <div class="inventory-container">
+        <!-- Loop through the list of inventory items and display each one -->
+        {% for item in items %}
+            <div class="inventory">
+                <p>({{ item.amount }}) {{ item.name }}</p>
+                {% if item.supplier %}
+                    <p>Supplier: {{ item.supplier }}</p> <!-- Display supplier info if available -->
+                {% endif %}
+                <div class="actions">
+                    <!-- Form to delete the inventory item -->
+                    <form action="{{ url_for('delete_inventory', inventory_id=item.id) }}" method="POST" style="display: inline;">
+                        <button type="submit">Delete</button>
+                    </form>
+                    <!-- Link to edit the inventory item -->
+                    <a href="{{ url_for('edit_inventory', inventory_id=item.id) }}" style="display: inline;">
+                        <button class="edit-button">Edit</button>
+                    </a>
+                    <!-- Link to add a supplier for the inventory item -->
+                    <a href="{{ url_for('add_supplier_inventory', inventory_id=item.id) }}" style="display: inline;">
+                        <button class="add-supplier-button">Add Supplier</button>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
