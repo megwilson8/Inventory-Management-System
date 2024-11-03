@@ -7,7 +7,7 @@ Users can add, edit, and remove inventory items, as well as adjust stock levels 
 ## Features
 - **Add** a new item to the inventory.
 - **Retrieve** a list of all inventory items.
-- **Retrieve** details about a specific item.
+- **View** details about a specific item.
 - **Update** the details of an existing item.
 - **Remove** an item from the inventory.
 
