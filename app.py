@@ -29,6 +29,10 @@ with app.app_context():
 def home():
     """Handle the home page where inventory items are listed and added."""
     logging.info("Accessed home page.")
+    
+    # Retrieve all inventory items to display
+    items = InventoryItem.query.all()
+
     if request.method == "POST":
         inventory_name = request.form.get("inventory_name")
         inventory_amount = request.form.get("inventory_amount")
@@ -36,26 +40,37 @@ def home():
         # Check for missing fields
         if not inventory_name or not inventory_amount:
             logging.error("Missing inventory name or amount.")
-            return render_template('index.html', items=[], error="Please provide both an item name and an amount.")
+            return render_template('index.html', items=items, error="Please provide both an item name and an amount.")
+
+        # Check if the item already exists
+        existing_item = InventoryItem.query.filter_by(name=inventory_name).first()
+        if existing_item:
+            logging.warning(f"Item '{inventory_name}' already exists in inventory.")
+            return render_template('index.html', items=items, error="This item is already in the inventory list.")
 
         try:
-            # Convert the amount to an integer and create a new inventory item
+            # Convert the amount to an integer
             inventory_amount = int(inventory_amount)
+            
+            # Create and add the new inventory item
             new_item = InventoryItem(name=inventory_name, amount=inventory_amount)
             db.session.add(new_item)
-            db.session.commit()
+            db.session.commit()  # Commit the new item to the database
             logging.info(f"Added new item: {new_item.name}, Amount: {new_item.amount}")
 
         except ValueError:
             logging.error("Invalid amount provided.")
-            return render_template('index.html', items=[], error="Amount must be a valid integer.")
+            return render_template('index.html', items=items, error="Amount must be a valid integer.")
         except Exception as e:
             logging.error("An unexpected error occurred: %s", str(e))
-            return render_template('index.html', items=[], error="An error occurred: " + str(e))
+            return render_template('index.html', items=items, error="An error occurred: " + str(e))
 
-    # Retrieve all inventory items to display
-    items = InventoryItem.query.all()
+        # After successful addition, retrieve items again to ensure they are displayed
+        items = InventoryItem.query.all()
+
     return render_template('index.html', items=items)
+
+
 
 @app.route("/delete/<int:inventory_id>", methods=["POST"])
 def delete_inventory(inventory_id):

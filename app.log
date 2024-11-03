@@ -373,3 +373,187 @@
 2024-11-02 13:17:16,102 - INFO - Accessed home page.
 2024-11-02 13:17:16,103 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:16] "GET / HTTP/1.1" 200 -
 2024-11-02 13:17:16,159 - INFO - 127.0.0.1 - - [02/Nov/2024 13:17:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-02 14:30:32,680 - INFO - Accessed home page.
+2024-11-02 14:30:32,701 - INFO - 127.0.0.1 - - [02/Nov/2024 14:30:32] "GET / HTTP/1.1" 200 -
+2024-11-02 14:30:32,786 - INFO - 127.0.0.1 - - [02/Nov/2024 14:30:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-11-03 09:27:52,949 - INFO - Accessed home page.
+2024-11-03 09:27:52,952 - INFO - 127.0.0.1 - - [03/Nov/2024 09:27:52] "GET / HTTP/1.1" 200 -
+2024-11-03 09:27:53,026 - INFO - 127.0.0.1 - - [03/Nov/2024 09:27:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:28:26,555 - INFO - Accessed home page.
+2024-11-03 09:28:26,566 - INFO - Added new item: Potatoes, Amount: 6
+2024-11-03 09:28:26,568 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:26] "POST / HTTP/1.1" 200 -
+2024-11-03 09:28:26,713 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:28:33,386 - INFO - Accessed home page.
+2024-11-03 09:28:33,392 - INFO - Added new item: Potatoes, Amount: 4
+2024-11-03 09:28:33,394 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:33] "POST / HTTP/1.1" 200 -
+2024-11-03 09:28:33,461 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:28:39,013 - INFO - Attempting to delete item with ID: 2
+2024-11-03 09:28:39,019 - INFO - Deleted item: Potatoes
+2024-11-03 09:28:39,020 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:39] "[32mPOST /delete/2 HTTP/1.1[0m" 302 -
+2024-11-03 09:28:39,025 - INFO - Accessed home page.
+2024-11-03 09:28:39,032 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:39] "GET / HTTP/1.1" 200 -
+2024-11-03 09:28:39,157 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:28:40,498 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:40] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-03 09:28:40,564 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:28:48,877 - INFO - Updated item ID 1: Name: Potatoes, Amount: 10
+2024-11-03 09:28:48,878 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:48] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:28:48,886 - INFO - Accessed home page.
+2024-11-03 09:28:48,889 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:48] "GET / HTTP/1.1" 200 -
+2024-11-03 09:28:49,068 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:28:50,756 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:50] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-03 09:28:50,837 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:28:53,624 - INFO - Added supplier 'Voltex' to item ID 1
+2024-11-03 09:28:53,625 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:53] "[32mPOST /add_supplier/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:28:53,630 - INFO - Accessed home page.
+2024-11-03 09:28:53,631 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:53] "GET / HTTP/1.1" 200 -
+2024-11-03 09:28:53,696 - INFO - 127.0.0.1 - - [03/Nov/2024 09:28:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:29:03,370 - INFO - 127.0.0.1 - - [03/Nov/2024 09:29:03] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-03 09:29:03,439 - INFO - 127.0.0.1 - - [03/Nov/2024 09:29:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:29:06,769 - INFO - Accessed home page.
+2024-11-03 09:29:06,772 - INFO - 127.0.0.1 - - [03/Nov/2024 09:29:06] "GET / HTTP/1.1" 200 -
+2024-11-03 09:29:06,847 - INFO - 127.0.0.1 - - [03/Nov/2024 09:29:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:32:13,281 - INFO -  * Detected change in '/Users/megwilson/Documents/Python/RecapAssignment/app.py', reloading
+2024-11-03 09:32:13,691 - INFO -  * Restarting with stat
+2024-11-03 09:32:14,961 - WARNING -  * Debugger is active!
+2024-11-03 09:32:14,979 - INFO -  * Debugger PIN: 122-309-928
+2024-11-03 09:32:37,405 - INFO -  * Detected change in '/Users/megwilson/Documents/Python/RecapAssignment/app.py', reloading
+2024-11-03 09:32:37,624 - INFO -  * Restarting with stat
+2024-11-03 09:32:38,639 - WARNING -  * Debugger is active!
+2024-11-03 09:32:38,652 - INFO -  * Debugger PIN: 122-309-928
+2024-11-03 09:32:39,985 - INFO - Accessed home page.
+2024-11-03 09:32:40,009 - INFO - 127.0.0.1 - - [03/Nov/2024 09:32:40] "GET / HTTP/1.1" 200 -
+2024-11-03 09:32:40,091 - INFO - 127.0.0.1 - - [03/Nov/2024 09:32:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:32:47,863 - INFO - Accessed home page.
+2024-11-03 09:32:47,870 - WARNING - Item 'Potatoes' already exists in inventory.
+2024-11-03 09:32:47,871 - INFO - 127.0.0.1 - - [03/Nov/2024 09:32:47] "POST / HTTP/1.1" 200 -
+2024-11-03 09:32:47,940 - INFO - 127.0.0.1 - - [03/Nov/2024 09:32:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:33:05,297 - INFO - Accessed home page.
+2024-11-03 09:33:05,300 - WARNING - Item 'Potatoes' already exists in inventory.
+2024-11-03 09:33:05,301 - INFO - 127.0.0.1 - - [03/Nov/2024 09:33:05] "POST / HTTP/1.1" 200 -
+2024-11-03 09:33:05,369 - INFO - 127.0.0.1 - - [03/Nov/2024 09:33:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:10,818 - INFO -  * Detected change in '/Users/megwilson/Documents/Python/RecapAssignment/app.py', reloading
+2024-11-03 09:35:10,954 - INFO -  * Restarting with stat
+2024-11-03 09:35:11,840 - WARNING -  * Debugger is active!
+2024-11-03 09:35:11,886 - INFO -  * Debugger PIN: 122-309-928
+2024-11-03 09:35:15,197 - INFO - Accessed home page.
+2024-11-03 09:35:15,218 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:15] "GET / HTTP/1.1" 200 -
+2024-11-03 09:35:15,318 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:19,913 - INFO - Accessed home page.
+2024-11-03 09:35:19,920 - WARNING - Item 'Potatoes' already exists in inventory.
+2024-11-03 09:35:19,921 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:19] "POST / HTTP/1.1" 200 -
+2024-11-03 09:35:20,062 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:28,806 - INFO - Accessed home page.
+2024-11-03 09:35:28,818 - INFO - Added new item: Flowers, Amount: 1
+2024-11-03 09:35:28,820 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:28] "POST / HTTP/1.1" 200 -
+2024-11-03 09:35:28,874 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:34,804 - INFO - Accessed home page.
+2024-11-03 09:35:34,807 - WARNING - Item 'Flowers' already exists in inventory.
+2024-11-03 09:35:34,808 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:34] "POST / HTTP/1.1" 200 -
+2024-11-03 09:35:34,896 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:39,494 - INFO - Attempting to delete item with ID: 1
+2024-11-03 09:35:39,502 - INFO - Deleted item: Potatoes
+2024-11-03 09:35:39,503 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:39] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:35:39,510 - INFO - Accessed home page.
+2024-11-03 09:35:39,512 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:39] "GET / HTTP/1.1" 200 -
+2024-11-03 09:35:39,631 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:40,380 - INFO - Attempting to delete item with ID: 2
+2024-11-03 09:35:40,386 - INFO - Deleted item: Flowers
+2024-11-03 09:35:40,386 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:40] "[32mPOST /delete/2 HTTP/1.1[0m" 302 -
+2024-11-03 09:35:40,392 - INFO - Accessed home page.
+2024-11-03 09:35:40,393 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:40] "GET / HTTP/1.1" 200 -
+2024-11-03 09:35:40,508 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:46,563 - INFO - Accessed home page.
+2024-11-03 09:35:46,569 - INFO - Added new item: Flowers, Amount: 2
+2024-11-03 09:35:46,569 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:46] "POST / HTTP/1.1" 200 -
+2024-11-03 09:35:46,651 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:35:51,071 - INFO - Accessed home page.
+2024-11-03 09:35:51,075 - WARNING - Item 'Flowers' already exists in inventory.
+2024-11-03 09:35:51,077 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:51] "POST / HTTP/1.1" 200 -
+2024-11-03 09:35:51,202 - INFO - 127.0.0.1 - - [03/Nov/2024 09:35:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:36:50,351 - INFO -  * Detected change in '/Users/megwilson/Documents/Python/RecapAssignment/app.py', reloading
+2024-11-03 09:36:50,523 - INFO -  * Restarting with stat
+2024-11-03 09:36:51,708 - WARNING -  * Debugger is active!
+2024-11-03 09:36:51,718 - INFO -  * Debugger PIN: 122-309-928
+2024-11-03 09:36:52,764 - INFO - Attempting to delete item with ID: 1
+2024-11-03 09:36:52,779 - INFO - Deleted item: Flowers
+2024-11-03 09:36:52,780 - INFO - 127.0.0.1 - - [03/Nov/2024 09:36:52] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:36:52,787 - INFO - Accessed home page.
+2024-11-03 09:36:52,802 - INFO - 127.0.0.1 - - [03/Nov/2024 09:36:52] "GET / HTTP/1.1" 200 -
+2024-11-03 09:36:52,881 - INFO - 127.0.0.1 - - [03/Nov/2024 09:36:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:36:56,974 - INFO - Accessed home page.
+2024-11-03 09:36:56,985 - INFO - Added new item: Flowers, Amount: 4
+2024-11-03 09:36:56,987 - INFO - 127.0.0.1 - - [03/Nov/2024 09:36:56] "POST / HTTP/1.1" 200 -
+2024-11-03 09:36:57,053 - INFO - 127.0.0.1 - - [03/Nov/2024 09:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:00,427 - INFO - Accessed home page.
+2024-11-03 09:37:00,431 - WARNING - Item 'Flowers' already exists in inventory.
+2024-11-03 09:37:00,432 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:00] "POST / HTTP/1.1" 200 -
+2024-11-03 09:37:00,507 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:04,253 - INFO - Accessed home page.
+2024-11-03 09:37:04,257 - WARNING - Item 'Flowers' already exists in inventory.
+2024-11-03 09:37:04,258 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:04] "POST / HTTP/1.1" 200 -
+2024-11-03 09:37:04,318 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:17,060 - INFO - Accessed home page.
+2024-11-03 09:37:17,069 - INFO - Added new item: Potatoes, Amount: 6
+2024-11-03 09:37:17,071 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:17] "POST / HTTP/1.1" 200 -
+2024-11-03 09:37:17,156 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:18,437 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:18] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-03 09:37:18,495 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:21,712 - INFO - Updated item ID 1: Name: Flowers, Amount: 4
+2024-11-03 09:37:21,713 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:21] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:37:21,719 - INFO - Accessed home page.
+2024-11-03 09:37:21,722 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:21] "GET / HTTP/1.1" 200 -
+2024-11-03 09:37:21,857 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:24,146 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:24] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-03 09:37:24,209 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:30,369 - INFO - Updated item ID 1: Name: Flowers, Amount: 1
+2024-11-03 09:37:30,370 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:30] "[32mPOST /edit/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:37:30,378 - INFO - Accessed home page.
+2024-11-03 09:37:30,381 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:30] "GET / HTTP/1.1" 200 -
+2024-11-03 09:37:30,523 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:32,392 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:32] "GET /add_supplier/1 HTTP/1.1" 200 -
+2024-11-03 09:37:32,479 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:39,012 - INFO - Added supplier 'Pick n Pay' to item ID 1
+2024-11-03 09:37:39,012 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:39] "[32mPOST /add_supplier/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:37:39,019 - INFO - Accessed home page.
+2024-11-03 09:37:39,022 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:39] "GET / HTTP/1.1" 200 -
+2024-11-03 09:37:39,108 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:40,897 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:40] "GET /edit/2 HTTP/1.1" 200 -
+2024-11-03 09:37:40,978 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:46,227 - INFO - Updated item ID 2: Name: Potatoes, Amount: 16
+2024-11-03 09:37:46,228 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:46] "[32mPOST /edit/2 HTTP/1.1[0m" 302 -
+2024-11-03 09:37:46,234 - INFO - Accessed home page.
+2024-11-03 09:37:46,238 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:46] "GET / HTTP/1.1" 200 -
+2024-11-03 09:37:46,325 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:48,471 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:48] "GET /edit/2 HTTP/1.1" 200 -
+2024-11-03 09:37:48,539 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:52,957 - INFO - Accessed home page.
+2024-11-03 09:37:52,960 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:52] "GET / HTTP/1.1" 200 -
+2024-11-03 09:37:53,038 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:54,547 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:54] "GET /edit/2 HTTP/1.1" 200 -
+2024-11-03 09:37:54,589 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:57,629 - INFO - Updated item ID 2: Name: Potatoes, Amount: 16
+2024-11-03 09:37:57,629 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:57] "[32mPOST /edit/2 HTTP/1.1[0m" 302 -
+2024-11-03 09:37:57,636 - INFO - Accessed home page.
+2024-11-03 09:37:57,637 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:57] "GET / HTTP/1.1" 200 -
+2024-11-03 09:37:57,706 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:37:58,912 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:58] "GET /add_supplier/2 HTTP/1.1" 200 -
+2024-11-03 09:37:58,972 - INFO - 127.0.0.1 - - [03/Nov/2024 09:37:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:38:00,228 - INFO - Accessed home page.
+2024-11-03 09:38:00,230 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:00] "GET / HTTP/1.1" 200 -
+2024-11-03 09:38:00,297 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:38:01,315 - INFO - Attempting to delete item with ID: 1
+2024-11-03 09:38:01,319 - INFO - Deleted item: Flowers
+2024-11-03 09:38:01,320 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:01] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-03 09:38:01,324 - INFO - Accessed home page.
+2024-11-03 09:38:01,328 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:01] "GET / HTTP/1.1" 200 -
+2024-11-03 09:38:01,406 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:38:01,762 - INFO - Attempting to delete item with ID: 2
+2024-11-03 09:38:01,766 - INFO - Deleted item: Potatoes
+2024-11-03 09:38:01,766 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:01] "[32mPOST /delete/2 HTTP/1.1[0m" 302 -
+2024-11-03 09:38:01,772 - INFO - Accessed home page.
+2024-11-03 09:38:01,774 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:01] "GET / HTTP/1.1" 200 -
+2024-11-03 09:38:01,841 - INFO - 127.0.0.1 - - [03/Nov/2024 09:38:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-11-03 09:38:17,676 - INFO -  * Detected change in '/Users/megwilson/Documents/Python/RecapAssignment/app.py', reloading
+2024-11-03 09:38:18,040 - INFO -  * Restarting with stat
+2024-11-03 09:38:18,999 - WARNING -  * Debugger is active!
+2024-11-03 09:38:19,015 - INFO -  * Debugger PIN: 122-309-928
