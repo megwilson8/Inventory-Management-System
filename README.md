@@ -46,6 +46,9 @@ After navigating to the link, you will see a display similar to the one below. S
 After adding the item you can edit the amount of stock, delete the item, or add a supplier. 
 
 ![Screen Shot 2024-11-03 at 09 52 54](https://github.com/user-attachments/assets/22d4ed53-bcd7-44d4-a87f-fd4fc2430fb5)
+## Additional Components:
+### Logging:
+app.log records application events and errors, helping you monitor performance and identify bugs in the system setup.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
