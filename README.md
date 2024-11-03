@@ -25,15 +25,19 @@ To set up the project locally, follow these steps:
    git clone git@github.com:megwilson8/Inventory-Management-System.git
    
 2. **Navigate to the project directory:**
+   
    cd Inventory-Management-System
    
-4. **Install dependencies:**
+3. **Install dependencies:**
+   
    pip install -r requirements.txt
 
-5. **Run the application:**
+4. **Run the application:**
+   
    python app.py
 
-6. **Access the application:**
+5. **Access the application:**
+   
    Open your browser and go to http://127.0.0.1:5000
 
 # Interface
