@@ -5,11 +5,11 @@ The Inventory Management System is a web application built with Flask that allow
 Users can add, edit, and remove inventory items, as well as adjust stock levels and assign suppliers.
 
 ## Features
-- **Add** a new item to the inventory.
+- **Add** new item to the inventory.
 - **Retrieve** a list of all inventory items.
 - **View** details about a specific item.
 - **Update** the details of an existing item.
-- **Remove** an item from the inventory.
+- **Remove** items from the inventory.
 
 # Technologies Used:
 - **Backend**: Flask (Python)
